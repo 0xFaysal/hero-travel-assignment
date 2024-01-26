@@ -131,7 +131,9 @@ header nav .logo h1 span {
   border-radius: 8px;
   background: #fff;
   border: none;
+  width: 195px;
 }
 .input-container button i {
   margin-right: 6px;
 }
+/* -------------------------------------------------------------------------- */
