@@ -2,7 +2,7 @@
   body {
     width: 95%;
   }
-
+  /* --------------Header Section Style------------- */
   header nav .logo img {
     width: 30px;
     height: 30px;
@@ -38,4 +38,29 @@
     max-width: 90%;
     width: 90%;
   }
+  /* -------------------------------------------------------- */
+  /* ---------------------Our popular Section ------------------ */
+  .popular-tour {
+    margin-top: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .popular-tour .contenet h1 {
+    font-size: 1.375rem;
+  }
+  .popular-tour .contenet p,
+  .popular-tour .contenet ul {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-top: 16px;
+  }
+  .popular-tour .contenet button {
+    margin-left: 33%;
+  }
+  .popular-tour img {
+    margin-top: 24px;
+    max-width: 98%;
+  }
+  /* ------------------------------------------------- */
 }

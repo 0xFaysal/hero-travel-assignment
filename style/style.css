@@ -137,3 +137,32 @@ header nav .logo h1 span {
   margin-right: 6px;
 }
 /* -------------------------------------------------------------------------- */
+/* -----------------Our Popular Section Style-------------------------------- */
+.popular-tour {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.popular-tour .contenet h1 {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.popular-tour .contenet p,
+.popular-tour .contenet ul {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-top: 24px;
+  max-width: 577px;
+}
+.popular-tour .contenet ul li {
+  max-width: 520px;
+  margin-left: 15px;
+}
+.popular-tour .contenet button {
+  margin-top: 34px;
+}
+
+/* ---------------------------------------------------------------------------- */
