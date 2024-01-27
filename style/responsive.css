@@ -1,15 +1,16 @@
 @media screen and (max-width: 600px) {
-  body {
+  .container {
     width: 95%;
   }
-  /* --------------Header Section Style------------- */
-  header nav .logo img {
+
+  .logo img {
     width: 30px;
     height: 30px;
   }
-  header nav .logo h1 {
+  .logo h1 {
     font-size: 1.34644rem;
   }
+  /* --------------Header Section Style------------- */
   header nav {
     flex-direction: column;
     justify-content: center;
@@ -63,4 +64,62 @@
     max-width: 98%;
   }
   /* ------------------------------------------------- */
+  /* ---------------- Destination section ------------- */
+  .destination {
+    margin-top: 24px;
+  }
+  .destination h1 {
+    font-size: 1.25rem;
+    font-weight: 800;
+  }
+  .destination p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem; /* 171.429% */
+  }
+  .destination .photo-container {
+    margin-top: 16px;
+  }
+  .destination .photo-container .photo-box h2 {
+    font-size: 1.25rem;
+  }
+  .destination .photo-container .row-1,
+  .destination .photo-container .row-2,
+  .destination .photo-container .row-3 {
+    flex-direction: column;
+    justify-content: none;
+    align-items: center;
+    margin-top: 0px;
+    gap: 0px;
+  }
+  .destination .photo-container .photo-box {
+    width: 100%;
+    height: 200px;
+    margin-top: 16px;
+  }
+  .destination .photo-container .photo-box img {
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  /* --------------------------------------------------------- */
+  /* ---------------------Footer Section --------------------- */
+  footer {
+    margin-top: 24px;
+    width: 100%;
+  }
+  footer .logo {
+    padding-top: 35px;
+  }
+  footer p {
+    font-size: 0.875rem;
+    line-height: 1.5rem; /* 171.429% */
+  }
+  footer .social-media {
+    margin-bottom: 24px;
+  }
+  footer hr {
+    width: 80%;
+    margin-bottom: 24px;
+  }
 }
