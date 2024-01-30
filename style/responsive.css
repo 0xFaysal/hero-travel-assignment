@@ -10,6 +10,14 @@
   .logo h1 {
     font-size: 1.34644rem;
   }
+  .h1-primary {
+    font-size: 1.25rem;
+  }
+  .p-primary {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+
   /* --------------Header Section Style------------- */
   header nav {
     flex-direction: column;
@@ -103,6 +111,15 @@
   }
 
   /* --------------------------------------------------------- */
+  /* ---------------------Why Choose us section --------------------- */
+  .why-contianer .box h1 {
+    font-size: 1.2rem;
+  }
+  .why-contianer .box p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
   /* ---------------------Footer Section --------------------- */
   footer {
     margin-top: 24px;

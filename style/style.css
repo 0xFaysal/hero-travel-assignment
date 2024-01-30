@@ -43,7 +43,21 @@
 .logo h1 span {
   color: #ff5400;
 }
-
+.h1-primary {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.p-primary {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+.center {
+  text-align: center;
+}
 /* ----------- Header Section Style --------- */
 header nav {
   display: flex;
@@ -145,11 +159,7 @@ header nav ul a {
   display: flex;
   justify-content: space-between;
 }
-.popular-tour .contenet h1 {
-  color: #131318;
-  font-size: 2.5rem;
-  font-weight: 800;
-}
+
 .popular-tour .contenet p,
 .popular-tour .contenet ul {
   color: rgba(19, 19, 24, 0.7);
@@ -173,17 +183,9 @@ header nav ul a {
   margin-top: 100px;
 }
 .destination h1 {
-  color: #131318;
   text-align: center;
-  font-size: 2.5rem;
-  font-weight: 800;
 }
 .destination p {
-  color: rgba(19, 19, 24, 0.7);
-  text-align: center;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.625rem;
   margin-top: 24px;
 }
 .destination .photo-container {
@@ -229,6 +231,69 @@ header nav ul a {
   justify-content: space-between;
   margin-top: 24px;
 }
+/* -------------------------------------------------------------------------- */
+/* ----------------Why Choose Us section Style-------------------------------- */
+.why-choose {
+  margin-top: 100px;
+}
+.why-choose p {
+  margin-top: 24px;
+  max-width: 643px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.why-contianer {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.why-contianer .box {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  max-width: 573px;
+  max-height: 284px;
+}
+.why-contianer .box img {
+  max-width: 55px;
+  aspect-ratio: 1/1;
+  margin-top: 32px;
+  margin-left: 32px;
+  margin-bottom: 32px;
+}
+.why-contianer .box h1 {
+  margin-left: 32px;
+  margin-bottom: 16px;
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.why-contianer .box p {
+  margin-left: 32px;
+  margin-bottom: 32px;
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  max-width: 486px;
+}
+.box-1 {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.box-2 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.box-3 {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+/* -------------------------------------------------------------------------- */
 /* ----------------footer section style-------------------------------------- */
 footer {
   margin-top: 100px;
