@@ -120,6 +120,50 @@
     font-weight: 400;
     line-height: 1.5rem;
   }
+  /* -------------------------------------------------------------- */
+  /* ---------------------Newsletter section --------------------- */
+  .newsletter {
+    margin-top: 24px;
+  }
+  .newsletter .detail {
+    width: 100%;
+  }
+  .newsletter .img-section {
+    margin-top: 16px;
+    width: 100%;
+    margin-left: 0px;
+    height: fit-content;
+  }
+  .newsletter .img-section img {
+    width: 100%;
+  }
+  .newsletter .img-section .tag {
+    width: 214.023px;
+    height: 79.268px;
+    bottom: 34px;
+  }
+  /* ----------------Perfect Place Section------------------ */
+  .parfect-place {
+    margin-top: 24px;
+  }
+  .parfect-place .content {
+    max-width: 100%;
+  }
+  .parfect-place img {
+    width: 100%;
+  }
+  .parfect-place .content > ul li {
+    font-size: 0.875rem;
+  }
+  /* ----------------Testimonial section ------------------ */
+  .testimonial {
+    margin-top: 24px;
+  }
+  .testimonial .review-box .top-section .h-box h1 {
+    color: #131318;
+    font-size: 1.25rem;
+  }
+
   /* ---------------------Footer Section --------------------- */
   footer {
     margin-top: 24px;

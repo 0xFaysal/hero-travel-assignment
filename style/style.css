@@ -50,7 +50,6 @@
 }
 .p-primary {
   color: rgba(19, 19, 24, 0.7);
-  text-align: center;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.625rem;
@@ -292,6 +291,187 @@ header nav ul a {
   border-radius: 16px;
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
+}
+/* -------------------------------------------------------------------------- */
+/* ---------------------Perfect Place section--------------------------- */
+.parfect-place {
+  margin-top: 100px;
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.parfect-place .content {
+  max-width: 46%;
+}
+.parfect-place p {
+  margin-top: 24px;
+}
+.parfect-place .content > ul li {
+  margin-left: 15px;
+  margin-top: 24px;
+  font-weight: 600;
+  list-style: none;
+}
+.parfect-place .content button {
+  margin-top: 24px;
+}
+.parfect-place .content > ul li::before {
+  content: "✓";
+  margin-right: 10px;
+  color: #ff5400;
+}
+
+/* ----------------Testimonial Section-------------------------------------- */
+.testimonial {
+  background: url("../Images/tetsimonial-1-bg.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  text-align: center;
+}
+.testimonial h3 {
+  color: #ff5400;
+}
+.testimonial .testimonial-container {
+  display: flex;
+  margin-top: 50px;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.testimonial .review-box {
+  box-sizing: border-box;
+  border: 2px solid #ff5400;
+  background: rgba(255, 255, 255, 0.858);
+  width: 573px;
+  -webkit-border-radius: 10px;
+  -webkit-border-top-right-radius: 100px;
+  -webkit-border-bottom-left-radius: 100px;
+  -moz-border-radius: 10px;
+  -moz-border-radius-topright: 100px;
+  -moz-border-radius-bottomleft: 100px;
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  padding: 20px;
+  /* background-color: #fff; */
+}
+.testimonial .review-box .top-section {
+  display: flex;
+  align-items: center;
+  /* background: #77e6a0; */
+  justify-content: space-around;
+}
+.testimonial .review-box .top-section img {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  border: 5px solid #ff5400;
+  position: relative;
+  bottom: 10px;
+  left: -20px;
+}
+.testimonial .review-box .top-section .img-h-box {
+  display: flex;
+  align-items: center;
+}
+.testimonial .review-box .top-section .h-box {
+  text-align: start;
+  display: block;
+  margin-left: -5px;
+}
+.testimonial .review-box .top-section .h-box h4 {
+  color: #131318;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.testimonial .review-box .top-section .star {
+  color: #ff5400;
+}
+.testimonial .review-box svg {
+  width: 50px;
+  height: 50px;
+}
+/* --------------------------------------------------------------------------- */
+/* ----------------Newletter Section Style----------------------------------- */
+.newsletter {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.newsletter .detail {
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.3);
+  width: fit-content;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  height: 422px;
+  box-sizing: border-box;
+}
+.newsletter .detail p {
+  margin-top: 12px;
+}
+.newsletter .detail hr {
+  background: rgba(19, 19, 24, 0.1);
+  margin-top: 16px;
+  border-color: rgba(19, 19, 24, 0.1);
+}
+
+.newsletter .detail .input-box {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+.newsletter .detail .input-box input {
+  box-sizing: border-box;
+  padding: 16px 20px;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.newsletter .detail .input-box button {
+  width: 100%;
+}
+.newsletter .img-section {
+  position: relative;
+  margin-left: 24px;
+  height: 422px;
+}
+.newsletter .img-section .tag {
+  position: absolute;
+  border-radius: 16px;
+  right: 8px;
+  bottom: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ff5400;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+}
+.newsletter .img-section .tag h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 0.99088rem;
+  font-weight: 400;
+}
+.newsletter .img-section .tag h1 {
+  color: #fff;
+  font-size: 1.32113rem;
+  font-weight: 800;
 }
 /* -------------------------------------------------------------------------- */
 /* ----------------footer section style-------------------------------------- */
