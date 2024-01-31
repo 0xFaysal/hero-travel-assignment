@@ -25,7 +25,11 @@
   }
   header nav ul {
     margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
   }
+
   header nav ul a {
     font-size: 0.875rem;
   }

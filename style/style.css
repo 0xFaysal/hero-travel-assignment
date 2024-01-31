@@ -252,7 +252,7 @@ header nav ul a {
   border-radius: 16px;
   border: 1px solid rgba(251, 181, 99, 0.2);
   max-width: 573px;
-  max-height: 284px;
+  max-height: fit-content;
 }
 .why-contianer .box img {
   max-width: 55px;
